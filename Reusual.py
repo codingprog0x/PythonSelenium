@@ -36,7 +36,7 @@ class Reusual:
 		#	If browser choice is not specified or not a valid choice, then default to Firefox
 		#	No boolean is returned, as False will never occur
 		##
-		if driver_choice != "":
+		if driver_choice != "": 
 			if driver_choice.lower() == "chrome":
 				self.driver = webdriver.Chrome()
 			elif driver_choice.lower() == "firefox":
